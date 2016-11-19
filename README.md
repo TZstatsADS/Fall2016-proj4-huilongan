@@ -23,12 +23,13 @@ Term: Fall 2016
 	just used a part of similar songs(based on their rank).<br>
 	<hr>
 	Programming language:
-	To extract features from HDF5 -> Python
+	To extract features from HDF5 -> Python<br>
 	To get the final result -> R
 	<hr>
 	Data:
-	similarity matrix
-	final result -> both in csv format
+	similarity matrix<br>
+	final result -> both in csv format<br>
+	<hr>
 
 	
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
