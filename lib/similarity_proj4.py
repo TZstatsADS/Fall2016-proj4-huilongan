@@ -38,6 +38,9 @@ extraction hdf5 file part
 # list(similar)
 
 # extract the path of hd5 file
+'''
+Use recursive algo the extract file path
+'''
 def _extract_h5(direct,pathslist):
     files = os.listdir(direct)
     for file in files:
@@ -154,8 +157,10 @@ for i in h5dict:
             len_dict[j] = []
         else:
             len_dict[j].append(len(i[j]))
+            
 for i in len_dict.keys():
-    print(i,' : ', max(len_dict[i]))   
+    print(i,' : ', max(len_dict[i]))
+    
 # take care of 'segments_pitches', 'segments_timbre','songs'
 letgo = ['segments_pitches','segments_timbre','songs']   
 # baseline data set up:
