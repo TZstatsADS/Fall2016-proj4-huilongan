@@ -16,13 +16,16 @@ Term: Fall 2016
 	1. Randomly sampled a baseline: As the music features are almost all vectors or matrices, I chose the longest 		vectors,and used their size to make sampling. 
 	2. Calculated Pearson correlation coefficient amaong each feature between the provided song and the baseline, which is 	       to quantify each song into a vector.
 	3. Calculated Pearson correlation coefficient as the similarity between new song and provided song.
-	4. Ranked the similar provided song compared to the new song and to rank the word.
+	4. Ranked the similar provided song compared to the new song and to rank the word.<br>
+	<hr>
 	Potential problem:
 	The whole procedure decides it is very hard to rank all the word. In order to make the computation quick, I actually 
-	just used a part of similar songs(based on their rank).
+	just used a part of similar songs(based on their rank).<br>
+	<hr>
 	Programming language:
 	To extract features from HDF5 -> Python
 	To get the final result -> R
+	<hr>
 	Data:
 	similarity matrix
 	final result -> both in csv format
